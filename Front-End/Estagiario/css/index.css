@@ -1,0 +1,65 @@
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(208, 208, 208);
+}
+
+main #container{
+    display: flex;
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    margin-top: 2.9%;
+    font-size: 130%;
+}
+
+main #login{
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+}
+
+#login #titulo{
+    text-align: center;
+    padding-top: 10%;
+}
+
+#login form{
+    margin-top: 25%;
+    font-size: 90%;
+    margin-left: 15%;
+}
+
+#login form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(208, 208, 208);
+    width: 80%;
+    color: white;
+}
+
+#logar{
+    margin-top: 15%;
+    margin-left: 43%;
+}
+
+#logar button{
+    color: rgb(208, 208, 208);;
+    font-size: 80%;
+    border: 2px solid rgb(208, 208, 208);
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#logar button:hover{
+    background-color: rgb(208, 208, 208);
+    color: rgb(26, 26, 26);
+    transform: scale(1.2);
+    cursor: pointer;
+}
